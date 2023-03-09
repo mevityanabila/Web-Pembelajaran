@@ -7,29 +7,35 @@
 <!--- css internal, langsung panggil tag-->
 <style>
     *{height: 100%;}
-    body{background-color: rgb(255, 243, 209);
+    body{   background-color: rgb(255, 243, 209);
             display: flex; 
             flex-direction: column;}
 
     header{
-            flex: 2;
-            font-size: xx-large;background-color: rgb(163, 68, 13); 
+        
+            font-size: xx-large;
+            background-color: rgb(163, 68, 13); 
             font-family: Arial, Helvetica, sans-serif;
-            padding: 5px ;
+            padding: 1px ;
+            display: inline; flex: 3;
             }
 
-    aside{background-color: rgb(231, 115, 21);
+    aside{  
+            background-color: rgb(231, 115, 21);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 20pt;
             display: flex;
             width: 30%;}
 
-    main {background-color: rgb(230, 142, 35);
+    main {
+            
+            background-color: rgb(230, 142, 35);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: x-large;
             display: flex;
+            flex: 10;
             height: 80vh;
-            flex: 10;}
+            gap: 10px;}
      
     article {width: 100%;}   
 
@@ -38,22 +44,29 @@
         
     footer {background-color: rgb(252, 170, 63);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            flex: 5;}
+           display: flex; flex: 2;
+            }
+
+
 
 </style>
 </head>
 
 
+
+
 <body>
-<Center>
+
 <header>BILARTCHIVE</header>
-</Center>
+
+
 <main>
     <aside>sidebar</aside>
     <section>
         <article>Bagian 1</article>
         <article>Bagian 2</article>
     </section>
+    
 </main>
 <footer>footer</footer>
 
